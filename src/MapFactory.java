@@ -18,7 +18,6 @@ public class MapFactory{
 			return new LinkedHashMap();
 		}
 
-		return Map();
-
+		return null;
 	}
 }

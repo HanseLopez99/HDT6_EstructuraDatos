@@ -1,6 +1,6 @@
 public class MapFactory{
 
-	public Map getMap(String mapType){
+	public static Map getMap(String mapType){
 
 		if(mapType == null){
 			return null;

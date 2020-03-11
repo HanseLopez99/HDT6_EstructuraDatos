@@ -17,7 +17,13 @@ public class Main{
     	Scanner sc = new Scanner(System.in);
     	String input;
     	MapFactory factory = new MapFactory();
+
     	fileRead f = new fileRead();
+
+    	
+
+        f.Reader();
+
         
     	
     	System.out.println("________________________________________________________--");
@@ -30,6 +36,8 @@ public class Main{
     	Map<String, String> map = factory.getMap(input);
     	f.Reader();
         
+
         System.out.println("\n -- Fin de la ejecucion...");
+
     }
 }

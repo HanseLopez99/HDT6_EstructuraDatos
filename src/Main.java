@@ -15,9 +15,9 @@ public class Main{
 
     public static void main(String [] args) {
 
-    	Map<Integer, String> map = new HashMap<Integer, String>();
-    	Map<Integer, String> treeMap = new TreeMap<Integer, String>();
-    	Map<Integer, String> linkedHashMap = new LinkedHashMap<Integer, String>();
+    	Map<String, String> map;
+    	Map<String, String> treeMap;
+    	Map<String, String> linkedHashMap;
     	
         fileRead f = new fileRead();
         f.Reader();

@@ -13,6 +13,7 @@ public class MapFactory{
 	public Map<String, String> getMap(String mapType){
 
 		if(mapType == null){
+			System.out.println("-Se ha ingresado un valor no valido, por favor ingresar de nuevo...");
 			return null;
 		}
 
@@ -27,7 +28,7 @@ public class MapFactory{
 		if(mapType.equalsIgnoreCase("LinkedHashMap")){
 			return new LinkedHashMap<String, String>();
 		}
-
+		System.out.println("-Se ha ingresado un valor no valido, por favor ingresar de nuevo...");
 		return null;
 	}
 }

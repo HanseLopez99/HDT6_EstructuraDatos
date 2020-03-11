@@ -18,14 +18,8 @@ public class Main{
     	String input;
     	MapFactory factory = new MapFactory();
 
-    	fileRead f = new fileRead();
+    	fileRead file = new fileRead();
 
-    	
-
-        f.Reader();
-
-        
-    	
     	System.out.println("________________________________________________________--");
     	System.out.println("                 Hoja de Trabajo 6");
     	System.out.println("________________________________________________________--\n");
@@ -34,7 +28,7 @@ public class Main{
     	
     	input = sc.nextLine();
     	Map<String, String> map = factory.getMap(input);
-    	f.Reader();
+    	file.Reader();
         
 
         System.out.println("\n -- Fin de la ejecucion...");

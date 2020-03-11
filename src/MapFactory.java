@@ -1,3 +1,8 @@
+/*
+* @author: Hansel Lopez 19026 & Eduardo Ramírez 19946
+*	Hoja de Trabajo #6
+*	Algoritmos y estructuras de datos 
+*/
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;

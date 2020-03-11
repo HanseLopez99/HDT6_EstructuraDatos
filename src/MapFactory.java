@@ -5,7 +5,7 @@ import java.util.TreeMap;
 
 public class MapFactory{
 
-	public static Map<String, String> getMap(String mapType){
+	public Map<String, String> getMap(String mapType){
 
 		if(mapType == null){
 			return null;
